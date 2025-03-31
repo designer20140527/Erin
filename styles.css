@@ -1612,6 +1612,13 @@ nav a, .footer-column a {
         min-width: 200px;  /* 设置最小宽度 */
         max-width: 80%;  /* 设置最大宽度 */
     }
+
+    /* 修改 hero 背景图片 */
+    .hero {
+        background-image: url('assets/images/phone-background.png');
+        background-size: cover;
+        background-position: bottom center;
+    }
 }
 
 /* 超小屏幕调整 */
